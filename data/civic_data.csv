@@ -1,0 +1,9 @@
+ID,Date,Category,Street,Neighborhood,Status
+SR-1001,2026-03-01 08:30:00,Drainage,Plank Rd,North BR,Open
+SR-1002,2026-03-02 09:15:00,Blight,Florida St,Downtown,Closed
+SR-1003,2026-03-03 11:00:00,Drainage,Scenic Hwy,North BR,Open
+SR-1004,2026-03-05 14:20:00,Traffic,Florida Blvd,Downtown,Open
+SR-1005,2026-03-07 16:45:00,Blight,Government St,Mid City,Closed
+SR-1006,2026-03-10 10:05:00,Sanitation,Highland Rd,South BR,Open
+SR-1007,2026-03-12 13:50:00,Traffic,Airline Hwy,Broadmoor,Pending
+SR-1008,2026-03-15 15:10:00,Drainage,Nicholson Dr,South BR,Closed

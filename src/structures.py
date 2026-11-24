@@ -32,9 +32,9 @@ class CivicDataEngine:
             # Group under category
             self.by_category[record.category].append(record)
 
-            # Add neighborhood to unique set
-            if record.neighborhood and record.neighborhood != "Unknown":
-                self.neighborhoods.add(record.neighborhood)
+            # Add neighborhood to unique set (normalized with .title())
+            if record.neighborhood and record.neighborhood.title() != "Unknown":
+                self.neighborhoods.add(record.neighborhood.title())
 
     # --- Milestone 4: Query Operations ---
 
